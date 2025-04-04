@@ -1,0 +1,6 @@
+{
+    "type": "patientInflow",
+    "labels": ["12 PM", "1 PM", "2 PM", "3 PM", "4 PM"],
+    "dataPoints": [20, 28, 35, 42, 60]
+  }
+  

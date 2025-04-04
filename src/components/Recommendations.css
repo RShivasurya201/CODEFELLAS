@@ -1,0 +1,56 @@
+/* src/components/Recommendations.css */
+.recommendation-section {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+  }
+  
+  .recommendation-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem; /* increased from 1rem */
+    margin-top: 1rem;
+    justify-content: space-between;
+  }
+  .recommendation-card {
+    flex: 1 1 320px;
+    padding: 1rem 1.2rem;
+    padding-left: 1.2rem;
+    border-left: 10px solid transparent;
+    border-radius: 8px;
+    background-color: #ffffff;
+    position: relative;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); /* subtle but effective */
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .recommendation-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .recommendation-card.high {
+    border-left-color: #dc3545;
+  }
+  
+  .recommendation-card.medium {
+    border-left-color: #fd7e14;
+  }
+  
+  .recommendation-card.low {
+    border-left-color: #28a745;
+  }
+  
+  .priority-label {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 0.75rem;
+    color: #555;
+    opacity: 0.85;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
+  

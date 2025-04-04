@@ -1,0 +1,13 @@
+[
+    {
+      "type": "ICU",
+      "message": "ICU Beds at 92% – Shift 2 nurses to ICU",
+      "severity": "critical"
+    },
+    {
+      "type": "Oxygen",
+      "message": "Oxygen Supply Low – Request backup cylinders",
+      "severity": "warning"
+    }
+  ]
+  

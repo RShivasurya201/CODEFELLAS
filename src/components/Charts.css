@@ -1,0 +1,26 @@
+.chart-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2rem 0;
+  }
+  
+  .chart-box {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    width: 32%;
+    margin-bottom: 2rem;
+  }
+  
+  .section-heading {
+    font-size: 18px;
+    /* padding: 10px 0; */
+    
+    margin: 30px 10px 15px;
+    color: #2d5dcc;
+    font-weight: bold;
+    text-align: center;
+  }
+   

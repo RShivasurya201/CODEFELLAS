@@ -1,0 +1,17 @@
+[
+    {
+      "patientId": "P101",
+      "arrivalTime": "12:00 PM",
+      "severity": "High",
+      "assignedBed": "ICU-12",
+      "status": "Admitted"
+    },
+    {
+      "patientId": "P102",
+      "arrivalTime": "12:05 PM",
+      "severity": "Medium",
+      "assignedBed": "GEN-03",
+      "status": "Waiting"
+    }
+  ]
+  

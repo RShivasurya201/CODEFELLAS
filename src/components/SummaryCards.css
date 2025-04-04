@@ -1,0 +1,33 @@
+.card-row {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+  }
+  
+  .summary-card {
+    background-color: white;
+    width: 220px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+  }
+  
+  .summary-card h1 {
+    font-size: 2.5rem;
+    margin: 0.5rem 0;
+    color: #2d5dcc;
+  }
+  
+  .badge {
+    padding: 0.4rem 0.7rem;
+    border-radius: 20px;
+    color: white;
+    font-size: 0.85rem;
+  }
+  
+  .badge.green { background-color: #28a745; }
+  .badge.orange { background-color: #fd7e14; }
+  .badge.red { background-color: #dc3545; }
+  
