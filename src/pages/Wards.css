@@ -1,0 +1,85 @@
+.wards-container {
+    padding: 30px;
+    background-color: #f0f6ff;
+    min-height: 100vh;
+    color: #2d336b;
+  }
+  
+  .wards-container h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  .wards-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .ward-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 320px;
+  }
+  
+  .ward-card h3 {
+    margin-bottom: 10px;
+    color: #2d336b;
+  }
+  
+  .bed-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    margin: 15px 0;
+  }
+  
+  .bed-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .bed-icon.occupied {
+    background-color: #7886c7;
+  }
+  
+  .bed-icon.free {
+    background-color: white;
+  }
+  
+  .ward-card button {
+    background-color: #2d336b;
+    color: white;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .patient-form {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .patient-form input,
+  .patient-form select {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .patient-form button {
+    background-color: #2d336b;
+    color: white;
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
